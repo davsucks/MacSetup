@@ -10,6 +10,15 @@ from subprocess import call
 def main():
   userHome=os.environ["HOME"]
 
+  print("Executing setup scripts")
+  scriptsHome = "config/scripts"
+  filesToExecute = ["{}/{}".format(scriptsHome, f) for f in listdir(scriptsHome) if isfile(join(scriptsHome, f))]
+  for file in filesToExecute:
+    print("calling {}".format(file))
+    returnCode = call(["./{}".format(file)])
+    if returnCode != 0:
+      raise RuntimeError("executing file {} exited with code: {}".format(file, returnCode))
+
   # place symlinks in $HOME for each file in config/home
   configHome = "config/home"
   filesToLink = [(configHome, f) for f in listdir(configHome) if isfile(join(configHome, f))]

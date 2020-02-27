@@ -1,4 +1,0 @@
-Create .vim/autoload and bundles directories and add linking to setup script
-
-Update README
-

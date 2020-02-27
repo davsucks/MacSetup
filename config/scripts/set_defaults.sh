@@ -8,12 +8,6 @@
 # https://gist.github.com/lsd/1e1826907ab7e49c536a
 
 defaults write com.google.android.studio ApplePressAndHoldEnabled -bool false
-defaults write com.jetbrains.AppCode ApplePressAndHoldEnabled -bool false
-defaults write com.jetbrains.PhpStorm ApplePressAndHoldEnabled -bool false
-defaults write com.jetbrains.PyCharm ApplePressAndHoldEnabled -bool false
 defaults write com.jetbrains.intellij ApplePressAndHoldEnabled -bool false
-defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
 defaults write com.jetbrains.WebStorm ApplePressAndHoldEnabled -bool false
-defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
-defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
+
