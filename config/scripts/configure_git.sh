@@ -17,5 +17,6 @@ git config --global alias.pra 'pull --rebase --autostash'
 git config --global alias.rc 'rebase --continue'
 git config --global alias.rh 'reset HEAD'
 git config --global alias.ss 'show --stat'
+git config --global alias.st 'status'
 git config --global alias.shove push
 
