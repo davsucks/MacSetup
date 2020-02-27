@@ -14,6 +14,7 @@ brew install jq
 brew install lolcat
 brew install node
 brew install pyenv
+brew install rbenv
 brew install ruby
 brew install thefuck
 brew install tmux
