@@ -30,6 +30,7 @@ brew cask install gog-galaxy
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
+brew cask install oracle-jdk
 brew cask install postman
 brew cask install slack
 brew cask install steam
