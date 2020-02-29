@@ -9,6 +9,7 @@ brew install docker
 brew install docker-compose
 brew install exercism
 brew install git
+brew install gnupg
 brew install gradle
 brew install jq
 brew install lolcat
