@@ -16,6 +16,7 @@ a mkdir='mkdir -pv'
 a mv='mv -iv'
 a myip='ipconfig getifaddr en0'
 a realias='source ~/.alias'
+a resource='source ~/.zshrc'
 a where='networksetup -getcurrentlocation'
 
 mcd () { mkdir $1 && cd $1; }
