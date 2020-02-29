@@ -11,12 +11,14 @@ autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
 
 eval "$(rbenv init -)"
+eval "$(pyenv init -)"
 eval "$(thefuck --alias)"
 
 # User configuration
 export EDITOR="usr/bim/vim"
 
 source ~/.bash_profile
+source ~/.alias
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
