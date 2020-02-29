@@ -27,6 +27,7 @@ brew cask install flux
 brew cask install gimp
 brew cask install google-backup-and-sync
 brew cask install gog-galaxy
+brew cask install haptic-touch-bar
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
