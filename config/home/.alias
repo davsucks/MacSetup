@@ -1,4 +1,3 @@
-
 alias a='alias'
 
 a ..='cd ../'
@@ -18,4 +17,6 @@ a mv='mv -iv'
 a myip='ipconfig getifaddr en0'
 a realias='source ~/.alias'
 a where='networksetup -getcurrentlocation'
+
+mcd () { mkdir $1 && cd $1; }
 
