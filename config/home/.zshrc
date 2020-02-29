@@ -15,7 +15,7 @@ eval "$(pyenv init -)"
 eval "$(thefuck --alias)"
 
 # User configuration
-export EDITOR="usr/bim/vim"
+export EDITOR="/usr/bin/vim"
 
 source ~/.bash_profile
 source ~/.alias
