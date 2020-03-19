@@ -33,6 +33,7 @@ brew cask install haptic-touch-bar
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
+brew cask install mactex
 brew cask install oracle-jdk
 brew cask install postman
 brew cask install slack
