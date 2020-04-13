@@ -7,11 +7,11 @@ brew upgrade
 
 brew install docker
 brew install docker-compose
-brew install drawio
 brew install exercism
 brew install git
 brew install gnupg
 brew install gradle
+brew install jesseduffield/lazydocker/lazydocker
 brew install jq
 brew install lolcat
 brew install node
@@ -20,10 +20,12 @@ brew install rbenv
 brew install ruby
 brew install thefuck
 brew install tmux
+brew install yarn
 brew install zsh-syntax-highlighting
 
 brew cask install aerial
 brew cask install caffeine
+brew cask install drawio
 brew cask install firefox
 brew cask install flux
 brew cask install gimp

@@ -16,6 +16,7 @@ eval "$(thefuck --alias)"
 
 # User configuration
 export EDITOR="/usr/bin/vim"
+export PATH=$PATH:/usr/local/texlive/2019/bin/x86_64-darwin
 
 source ~/.bash_profile
 source ~/.alias
