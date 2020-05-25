@@ -25,6 +25,7 @@ brew install zsh-syntax-highlighting
 
 brew cask install aerial
 brew cask install caffeine
+brew cask install docker
 brew cask install drawio
 brew cask install firefox
 brew cask install flux
@@ -45,6 +46,7 @@ brew cask install tableplus
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install visual-studio-code
+brew cask install vlc
 brew cask install webstorm
 brew cask install wireshark
 
